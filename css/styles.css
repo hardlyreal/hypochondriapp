@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  font-family: 'Nunito Sans', sans-serif;
+  
+}
+.container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.tag {
+  margin-top: 0;
+}
+
+.red {
+  color: red;
+}
+.insert-text {
+  height: 200px;
+  border: 2px solid red;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.response-text {
+  font-size: 1.6em;
+}
+
+#sickBtn {
+  border: 2px solid black;
+  display: block;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 1em;
+  background: transparent;
+  padding: .5em 0;
+  transition: .5s;
+}
+
+#sickBtn:hover {
+  border-color: rgba(0,0,0,.6);
+  transition: .5s;
+}
+
+footer {
+  margin-top: 3em;
+}
+
+@media (min-width: 769px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1040px) {
+  .container {
+    width: 50%;
+  }
+}
